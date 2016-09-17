@@ -34,9 +34,30 @@
   text-align: justify;
 }
 
+.App-emoji-heart {
+  font-size: 0.75em;
+  color: thistle;
+}
+
 .App-links {
+  color: gold;
+  font-weight: 700;
+}
+
+.App-links:hover,
+.App-links:focus {
+  cursor: pointer;
+  color: thistle;
+  text-decoration: none;
+}
+
+.App-icon-links {
   padding-top: 40px;
   letter-spacing: 16px;
+}
+
+.App-icon-links i:hover {
+  cursor: pointer;
 }
 
 .fa {
@@ -44,7 +65,7 @@
 }
 
 .fa:hover {
-  color: mistyrose;
+  color: gold;
 }
 
 @media screen and (max-width: 768px) {

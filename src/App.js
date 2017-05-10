@@ -11,7 +11,7 @@ class App extends Component {
           <img className="App-logo" src={agne} alt='agne klimaite' /><h2 className="App-title">hi there🦄✨</h2>
         </div>
         <p className="App-intro col-sm-6">
-          My name is <h1>Agne Klimaite</h1> and I am a software engineer based in San Fransisco.<br /><br />
+          My name is <h1>Agne Klimaite</h1> and I am a software engineer based in San Francisco.<br /><br />
           I <span className="App-emoji-heart">♡</span> sunny days, travel, electronic musik, CSS, Berlin, good food & wine.
           In my spare time, I make apps for fun. Check out <a className="App-links" href="https://planty-hb.herokuapp.com" title="Planty">Planty</a> and <a className="App-links" href="http://beta.unoji.click" title="Unoji">Unoji</a>.<br /><br />
           I am looking for cool opportunities in fullstack or frontend development. You can check out my resume <a className="App-links" href="https://www.dropbox.com/s/umxwf8w0vqgui61/klimaite_resume.pdf?dl=0">here</a>, let's talk!<br /><br />

@@ -9,6 +9,10 @@ coverage
 # production
 build
 
+# ssl
+csr.pem
+private-key.pem
+
 # misc
 .DS_Store
 npm-debug.log

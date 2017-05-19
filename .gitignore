@@ -13,6 +13,7 @@ build
 csr.pem
 private-key.pem
 225FE519A8FE44899C6D2E285F11F31F.txt
+ssl/
 
 # misc
 .DS_Store

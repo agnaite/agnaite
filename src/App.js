@@ -14,7 +14,7 @@ class App extends Component {
           My name is <h1>Agne Klimaite</h1> and I am a software engineer based in San Francisco.<br /><br />
           I <span className="App-emoji-heart">♡</span> sunny days, travel, electronic musik, CSS, Berlin, good food & wine.
           In my spare time, I make apps for fun. Check out <a className="App-links" href="https://planty-hb.herokuapp.com" title="Planty">Planty</a> and <a className="App-links" href="http://beta.unoji.click" title="Unoji">Unoji</a>.<br /><br />
-          I am looking for cool opportunities in fullstack or frontend development. You can check out my resume <a className="App-links" href="https://www.dropbox.com/s/umxwf8w0vqgui61/klimaite_resume.pdf?dl=0">here</a>, let's talk!<br /><br />
+          I am looking for cool opportunities in fullstack or frontend development. You can check out my resume <a className="App-links" href="https://www.dropbox.com/s/tk0tzw6uyn5yqp3/klimaite_resume_2017.pdf?dl=0">here</a>, let's talk!<br /><br />
           Thanks for visiting 💕
         </p>
         <div className="App-icon-links">

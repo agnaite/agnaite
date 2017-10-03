@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from './Header';
 import Main from './Main';
+import Link from './Link';
 import './static/css/App.css';
 
 class App extends Component {
@@ -9,11 +10,10 @@ class App extends Component {
       <div className="App container-fluid">
         <Header />
         <Main />
-        // App icons
         <div className="App-icon-links">
-          <a href="https://github.com/agnaite" title="GitHub agnaite"><i className="fa fa-github-alt fa-2x" aria-hidden="true"></i></a>
-          <a href="https://twitter.com/agnaite" title="Twitter agnaite"><i className="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
-          <a href="https://linkedin.com/in/agnaite" title="LinkedIn agnaite"><i className="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+          <Link url='https://github.com/agnaite' icon='fa-github-alt' />
+          <Link url='https://twitter.com/agnaite' icon='fa-twitter' />
+          <Link url='https://linkedin.com/in/agnaite' icon='fa-linkedin' />
         </div>
       </div>
     );

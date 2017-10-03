@@ -21,15 +21,3 @@
   padding-top: 40px;
   letter-spacing: 16px;
 }
-
-.App-icon-links i:hover {
-  cursor: pointer;
-}
-
-.fa {
-  color: thistle;
-}
-
-.fa:hover {
-  color: gold;
-}

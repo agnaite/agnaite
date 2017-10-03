@@ -1,0 +1,11 @@
+i:hover {
+  cursor: pointer;
+}
+
+.fa {
+  color: thistle;
+}
+
+.fa:hover {
+  color: gold;
+}

@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
-import { Navbar, Jumbotron, Button } from 'react-bootstrap';
-import agne from './agne-1.jpg';
-import './App.css';
+import Header from './Header';
+import './static/css/App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App container-fluid">
-        <div className="App-header">
-          <img className="App-logo" src={agne} alt='agne klimaite' /><h2 className="App-title">hi there🦄✨</h2>
-        </div>
+        <Header />
+        // App main
         <p className="App-intro col-sm-6">
           My name is <h1>Agne Klimaite</h1> and I am a software engineer based in San Francisco.<br /><br />
           I <span className="App-emoji-heart">♡</span> sunny days, travel, electronic musik, CSS, Berlin, good food & wine.
@@ -17,6 +15,7 @@ class App extends Component {
           I am looking for cool opportunities in fullstack or frontend development. You can check out my resume <a className="App-links" href="https://www.dropbox.com/s/umxwf8w0vqgui61/klimaite_resume.pdf?dl=0">here</a>, let's talk!<br /><br />
           Thanks for visiting 💕
         </p>
+        // App icons
         <div className="App-icon-links">
           <a href="https://github.com/agnaite" title="GitHub agnaite"><i className="fa fa-github-alt fa-2x" aria-hidden="true"></i></a>
           <a href="https://twitter.com/agnaite" title="Twitter agnaite"><i className="fa fa-twitter fa-2x" aria-hidden="true"></i></a>

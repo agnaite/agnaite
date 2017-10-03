@@ -5,26 +5,6 @@
   align-items: center;
 }
 
-.App-emoji__sparkles {
-  font-size: 5em;
-}
-
-.App-intro {
-  padding-top: 60px;
-  font-size: 1.25em;
-  text-align: justify;
-}
-
-.App-intro h1 {
-  font-size: 1em;
-  display: inline;
-}
-
-.App-emoji-heart {
-  font-size: 0.75em;
-  color: thistle;
-}
-
 .App-links {
   color: gold;
   font-weight: 700;
@@ -52,17 +32,4 @@
 
 .fa:hover {
   color: gold;
-}
-
-@media screen and (max-width: 768px) {
-  .App-header {
-    justify-content: center;
-    padding-top: 30px;
-  }
-
-  .App-intro {
-    padding-top: 30px;
-    width: 90%;
-    font-size: 1.1em;
-  }
 }

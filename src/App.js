@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './Header';
+import Main from './Main';
 import './static/css/App.css';
 
 class App extends Component {
@@ -7,14 +8,7 @@ class App extends Component {
     return (
       <div className="App container-fluid">
         <Header />
-        // App main
-        <p className="App-intro col-sm-6">
-          My name is <h1>Agne Klimaite</h1> and I am a software engineer based in San Francisco.<br /><br />
-          I <span className="App-emoji-heart">♡</span> sunny days, travel, electronic musik, CSS, Berlin, good food & wine.
-          In my spare time, I make apps for fun. Check out <a className="App-links" href="https://planty-hb.herokuapp.com" title="Planty">Planty</a> and <a className="App-links" href="http://beta.unoji.click" title="Unoji">Unoji</a>.<br /><br />
-          I am looking for cool opportunities in fullstack or frontend development. You can check out my resume <a className="App-links" href="https://www.dropbox.com/s/tk0tzw6uyn5yqp3/klimaite_resume_2017.pdf?dl=0">here</a>, let's talk!<br /><br />
-          Thanks for visiting 💕
-        </p>
+        <Main />
         // App icons
         <div className="App-icon-links">
           <a href="https://github.com/agnaite" title="GitHub agnaite"><i className="fa fa-github-alt fa-2x" aria-hidden="true"></i></a>

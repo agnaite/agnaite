@@ -1,0 +1,23 @@
+.App-intro {
+  padding-top: 60px;
+  font-size: 1.25em;
+  text-align: justify;
+}
+
+.App-intro h1 {
+  font-size: 1em;
+  display: inline;
+}
+
+.App-emoji-heart {
+  font-size: 0.75em;
+  color: thistle;
+}
+
+@media screen and (max-width: 768px) {
+  .App-intro {
+    padding-top: 30px;
+    width: 90%;
+    font-size: 1.1em;
+  }
+}

@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://agnaite.com",
   "devDependencies": {
-    "react-scripts": "^3.0.1"
+    "react-scripts": "^5.0.1"
   },
   "dependencies": {
     "bootstrap": "^3.3.7",

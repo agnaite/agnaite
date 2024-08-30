@@ -14,6 +14,9 @@ class App extends Component {
           <Link url='https://github.com/agnaite' icon='fa-github-alt' />
           <Link url='https://linkedin.com/in/agnaite' icon='fa-linkedin' />
         </div>
+        <div className="Slava-ukraini">
+          <span>Слава Україні!</span>
+        </div>
       </div>
     );
   }

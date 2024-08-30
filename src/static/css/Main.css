@@ -21,3 +21,14 @@
     font-size: 1.1em;
   }
 }
+
+.Slava-ukraini {
+  font-weight: 500;
+  font-size: 1.25em;
+  color: gold;
+  padding-top: 25px;
+}
+
+.Dolphin-emoji {
+  font-size: 1.2em;
+}

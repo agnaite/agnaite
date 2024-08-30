@@ -12,7 +12,6 @@ class App extends Component {
         <Main />
         <div className="App-icon-links">
           <Link url='https://github.com/agnaite' icon='fa-github-alt' />
-          <Link url='https://twitter.com/agnaite' icon='fa-twitter' />
           <Link url='https://linkedin.com/in/agnaite' icon='fa-linkedin' />
         </div>
       </div>
